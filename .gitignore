@@ -1,0 +1,32 @@
+# Datasets
+*.csv
+*.tsv
+train.csv
+test.csv
+
+# Trained models / checkpoints
+*.bin
+*.safetensors
+*.pt
+*.pth
+content-moderation-model/
+results/
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Colab/Jupyter
+.ipynb_checkpoints/
